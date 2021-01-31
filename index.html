@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluePet</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div>
+            <div class="headinner">
+                <h1></h1>
+                <div class="searchbox">
+                    <input id="search" type="search" value="商品名を入力" >
+                    <div class="searchIcon"></div>
+                </div>
+                <div>
+                    <ul class="nav1-1">
+                        <li class="m1">カート</li>
+                        <li class="m2">ログイン</li>
+                        <li class="m3">お問い合わせ</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- スライダー -->
+        <div class="img_box">
+            <div class="img_main">
+                <div class="swiper-container gallery-top" style="height: 480px;">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(img/slide01.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide02@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide03@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide04@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide05@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide06@2x.png)"></div>
+                    </div>
+                    <!-- ボタン -->
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+            </div>
+            <!-- サムネイル -->
+            <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper swiper-box">
+                    <div class="swiper-slide" style="background-image:url(img/slide01.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide02@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide03@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide04@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide05@2x.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/slide06@2x.png)"></div>
+                </div>
+            </div>
+        </div>
+        <!-- コンテンツ -->
+        <div class="content">
+            <!-- ナビゲーション -->
+            <nav class="navgation">
+                <span>アイテムを探す</span>
+                <dl class="menu">
+                    <dt>犬用カテゴリー</dt>
+                    <dd>
+                        <ul>
+                            <li>ドッグフード・おやつ</li>
+                            <li>サプリメント</li>
+                            <li>室内用品</li>
+                            <li>ベッド</li>
+                            <li>おもちゃ</li>
+                            <li>首輪・ハーネス・リード</li>
+                            <li>ウェア（犬服）</li>
+                            <li>お出かけ・お散歩</li>
+                        </ul>
+                    </dd>
+                    <dt>猫用カテゴリー</dt>
+                    <dd>
+                        <ul>
+                            <li>キャットフード・おやつ</li>
+                            <li>サプリメント</li>
+                            <li>室内用品</li>
+                            <li>ベッド</li>
+                            <li>おもちゃ</li>
+                            <li>首輪・ハーネス・リード</li>
+                            <li>ウェア（猫服）</li>
+                            <li>お出かけ・お散歩</li>
+                        </ul>
+                    </dd>
+                    <dt>小動物用カテゴリー</dt>
+                    <dd>
+                        <ul>
+                            <li>フード・おやつ</li>
+                            <li>サプリメント</li>
+                            <li>室内用品</li>
+                            <li>ベッド</li>
+                            <li>おもちゃ</li>
+                            <li>首輪・ハーネス・リード</li>
+                            <li>ウェア（服）</li>
+                            <li>お出かけ・お散歩</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </nav>
+            <div class="bluepet_content">
+                <!-- お知らせ -->
+                <div class="news">
+                    <div class="fromBlupet">BLUEPETからのお知らせ</div>
+                    <dl>
+                        <dt class="date">2020/03/01</dt>
+                        <dd class="article">コロナウイルスの影響による荷物のお届け遅延について</dd>
+                        <dt class="date">2019/12/14</dt>
+                        <dd class="article"> システムメンテナンスのお知らせ</dd>
+                        <dt class="date">2019/08/08</dt>
+                        <dd class="article">帝国ホテル店オープンのお知らせ</dd>
+                    </dl>
+                </div>
+                <!-- 特集・人気商品 -->
+                <div>
+                    <!-- 新作 -->
+                    <section class="new_work">
+                        <div><span class="fontNew fontNew4">NEW!</span><span class="fontNew1">新作・特集</span><span class="fontNew2">全ての新作特集を見る</span></div>
+                        <div>
+                            <ul class="new_work_list">
+                                <li>
+                                    <div class="new_work_list_img">
+                                        <img src="img/new01.png" alt="">
+                                    </div>
+                                    <div>
+                                        <span>猫用カーペット特集</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="img/new02.png" alt="">
+                                    </div>
+                                    <div>
+                                        <span>ウォーターサーバー始めました</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="img/new03.png" alt="">
+                                    </div>
+                                    <div>
+                                        <span>ペット用PC/タブレット</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- 犬 -->
+                    <section class="dog_production">
+                        <div class="triangle"></div>
+                        <div class="dog_title">            
+                            <span>犬の人気商品</span>                               
+                            <span class="fontNew2">すべての犬の人気商品を見る</span>
+                        </div>
+                        <div class="dog_content">
+                            <ul>
+                                <li>
+                                    <img src="img/dog01.png" alt="">
+                                    <div>抗菌防臭自動車</div>
+                                    <div>¥12,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                                <li>
+                                    <img src="img/dog02.png" alt="">
+                                    <div>非常食にもなる！ 食用フリスビー</div>
+                                    <div>¥6,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                                <li>
+                                    <img src="img/dog03.png" alt="">
+                                    <div>抗菌防臭リボン</div>
+                                    <div>¥4,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                                <li>
+                                    <img src="img/dog04.png" alt="">
+                                    <div>和風犬小屋</div>
+                                    <div>¥16,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- 猫 -->
+                    <section class="cat_production">
+                        <div class="dog_title">            
+                            <span>猫の人気商品</span>                               
+                            <span class="fontNew2">すべての犬の人気商品を見る</span>
+                        </div>
+                        <div class="cat_content">
+                            <ul>
+                                <li>
+                                    <img src="img/cat01.png" alt="">
+                                    <div>やみつき！猫じゃらし</div>
+                                    <div>¥1,400</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                                <li>
+                                    <img src="img/cat02.png" alt="">
+                                    <div>高性能ねずみ型ルンバ</div>
+                                    <div>¥8,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                                <li>
+                                    <img src="img/cat03.png" alt="">
+                                    <div>まるで捕虜！脱走防止策</div>
+                                    <div>¥9,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                                <li>
+                                    <img src="img/cat04.png" alt="">
+                                    <div>大理石食器皿</div>
+                                    <div>¥62,000</div>
+                                    <div>⭐️⭐️⭐️</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <div class="banner">
+                        <img src="img/banner01.png" alt="">
+                        <img src="img/banner02.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="fotter_nav">
+            <div>
+                <div class="colhead"><a href="#"></a><div>ご利用ガイド</div></div>
+                <div>
+                    <ul>
+                        <li>> 初めてのお客様へ</li>
+                        <li>> BLUEPETについて</li>
+                        <li>> よくあるご質問</li>
+                        <li>> 新着情報</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="colhead"><a href="#"></a><div>商品紹介</div></div>
+                <div>
+                    <ul>
+                        <li>> 犬用商品</li>
+                        <li>> 猫用商品</li>
+                        <li>> 小型動物用商品</li>
+                        <li>> ゴリラ用商品</li>
+                        <li>> その他</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="colhead"><a href="#"></a><div>求人情報</div></div>
+                <div class="colhead"><a href="#"></a><div>プライバシポリシー</div></div>
+                <div class="colhead"><a href="#"></a><div>株式会社blue</div></div>
+            </div>
+        </div>
+        <div class="fotter_right">
+            <div class="footer_conttent">
+                <img src="img/logo.png" alt="">
+                <div class="info">SNS情報はこちらから</div>
+                <div class="icon">
+                    <ul>
+                        <li><img src="img/twetter.png" alt=""></li>
+                        <li><img src="img/facebook.png" alt=""></li>
+                        <li><img src="img/line.png" alt=""></li>
+                        <li><img src="img/instagram.png" alt=""></li>
+                    </ul>
+                </div>
+                <span >(C) BLUEPET CO.,LTD All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- CDN読み込み -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- jsファイル読み込み -->
+    <script type="text/javascript" src="blue.js"></script>
+</body>
+</html>
